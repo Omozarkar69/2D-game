@@ -11,9 +11,9 @@ win = pygame.display.set_mode((WIDTH, HEIGHT))
 pygame.display.set_caption("2D Car Racing")
 
 # Load images
-car_img = pygame.image.load("car.png")  # Replace with your car image path
-enemy_img = pygame.image.load("enemy_car.png")  # Replace with enemy car image
-road_img = pygame.image.load("road.png")  # Optional road background
+car_img = pygame.image.load("car.png")  
+enemy_img = pygame.image.load("enemy_car.png")  
+road_img = pygame.image.load("road.png")  
 
 # Resize if needed
 car_img = pygame.transform.scale(car_img, (50, 100))
